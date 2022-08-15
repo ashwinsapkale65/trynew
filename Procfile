@@ -1,1 +1,1 @@
-web: gunicorn trynew.wsgi:application
+web: gunicorn --pythonpath project trynew.wsgi:application --access-logfile -

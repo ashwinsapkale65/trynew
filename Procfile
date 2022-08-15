@@ -1,1 +1,1 @@
-web gunicorn trynew:app
+web: gunicorn app:app

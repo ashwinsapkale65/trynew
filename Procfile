@@ -1,1 +1,1 @@
-web: gunicorn trynew.wsgi --log-file
+web: gunicorn trynew.wsgi 
